@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+pylint = "*"
+assertpy = "*"
+
+[packages]
+pulumi = ">= 2.0.0"
+pulumi-azure = ">= 2.0.0"
+pulumi-azuread = ">= 2.0.0"
+cerberus = "*"
+
+[requires]
+python_version = "3.8"
