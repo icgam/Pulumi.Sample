@@ -65,6 +65,10 @@ def create_composite_app(appDefinition: CompositeAppDefinition):
     api = create_app(api_definition)
 
     web_definition = AppDefinition(title=f"{appDefinition.title} Web", name=appDefinition.name, business=appDefinition.business, is_api=False)
+    
+    permission = create_permission(api.app)
+    web_definition.add_permission(permission)
+        
     web = create_app(web_definition)
 
     return {"web": web, "api": api}
