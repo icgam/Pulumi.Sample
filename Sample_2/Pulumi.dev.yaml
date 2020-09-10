@@ -1,0 +1,5 @@
+config:
+  azure:environment: public
+  azure:location: NorthEurope
+  platform:description: sample security app
+  platform:name: per
