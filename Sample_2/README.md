@@ -6,7 +6,7 @@ Steps to reproduce
 
 1. Run **pulumi up** with the current configuration
 2. Accept the changes.
-3. Update \***\*main**.py** line number 13 from **default_permissions()** to **all_permissions()\*\*
+3. Update **main**.py line number 13 from **default_permissions()** to **all_permissions()**
 4. Run pulumi up again and it throws the following exception.
 
 ## **Exception**
